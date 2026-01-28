@@ -1,30 +1,22 @@
 {
     "version": "0.1.0",
-    "description": "CLI tool for SBOMHub - SBOM generation and vulnerability scanning",
-    "homepage": "https://github.com/youichi-uda/sbomhub-cli",
-    "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/youichi-uda/sbomhub-cli/releases/download/v0.1.0/sbomhub_windows_amd64.zip",
-            "hash": "PLACEHOLDER_SHA256_WINDOWS_AMD64"
+            "url": "https://github.com/youichi-uda/sbomhub-cli/releases/download/v0.1.0/sbomhub-cli_windows_amd64.zip",
+            "bin": [
+                "sbomhub.exe"
+            ],
+            "hash": "8495695b46bfbdacff8116f931e5e9ca202b0a2ab55da89482bcba2413fd1800"
         },
         "arm64": {
-            "url": "https://github.com/youichi-uda/sbomhub-cli/releases/download/v0.1.0/sbomhub_windows_arm64.zip",
-            "hash": "PLACEHOLDER_SHA256_WINDOWS_ARM64"
+            "url": "https://github.com/youichi-uda/sbomhub-cli/releases/download/v0.1.0/sbomhub-cli_windows_arm64.zip",
+            "bin": [
+                "sbomhub.exe"
+            ],
+            "hash": "025ed968215b9b75464624aae8f83d31af5e6edcfb0e2c95b778f6c707168cec"
         }
     },
-    "bin": "sbomhub.exe",
-    "checkver": {
-        "github": "https://github.com/youichi-uda/sbomhub-cli"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/youichi-uda/sbomhub-cli/releases/download/v$version/sbomhub_windows_amd64.zip"
-            },
-            "arm64": {
-                "url": "https://github.com/youichi-uda/sbomhub-cli/releases/download/v$version/sbomhub_windows_arm64.zip"
-            }
-        }
-    }
+    "homepage": "https://sbomhub.app",
+    "license": "MIT",
+    "description": "CLI for SBOMHub - SBOM generation and vulnerability scanning"
 }
