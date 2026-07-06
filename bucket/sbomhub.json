@@ -1,19 +1,19 @@
 {
-    "version": "1.4.0",
+    "version": "1.4.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/youichi-uda/sbomhub-cli/releases/download/v1.4.0/sbomhub-cli_windows_amd64.zip",
+            "url": "https://github.com/youichi-uda/sbomhub-cli/releases/download/v1.4.1/sbomhub-cli_windows_amd64.zip",
             "bin": [
                 "sbomhub.exe"
             ],
-            "hash": "63259d66f758407ded59c5f171dd904693ba103abef271f208c7af3c9abee68c"
+            "hash": "40895f42155d7531ef24880fe0b05a4536c14eda45ed45bcbb151451dc5dc968"
         },
         "arm64": {
-            "url": "https://github.com/youichi-uda/sbomhub-cli/releases/download/v1.4.0/sbomhub-cli_windows_arm64.zip",
+            "url": "https://github.com/youichi-uda/sbomhub-cli/releases/download/v1.4.1/sbomhub-cli_windows_arm64.zip",
             "bin": [
                 "sbomhub.exe"
             ],
-            "hash": "05ecff53ae723ab74edba1959562d77100a8728cf9683bd62fd4202d5b4a2d74"
+            "hash": "67b6ff48f12f61625a5487c73979576132d8cd64cc56794eb9b862d2e45bcacf"
         }
     },
     "homepage": "https://sbomhub.app",
